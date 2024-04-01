@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    transition: 0.2s linear;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+button{
+    border: none;
+    border-radius: 25%;
+    padding: 1vh;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+button:hover{
+    background-color: rgba(137, 43, 226, 0.459);
+}
+
+h1 {
+   font-size: 36px;
+   
+}
+
+p {
+    text-align: justify;
+    text-indent: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+
+main{
+    margin-bottom: 50px;
+}
+
+footer p {
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+}
+
+.buttons {
+
+     padding: 1rem; 
+    border-radius: 15px;
+     display: flex;
+     flex-direction: row;
+     width: 15%; 
+     justify-content: space-evenly;
+     margin: 0 auto;
+
+     /* margin-top: 55%; */
+    }
+   
+   .buttons a {
+     color: blueviolet;
+     font-size: 40px;
+     transition: 0.5s;
+   }
+   
+   .buttons a:hover{
+     color: #F1916D;
+   }
+
+.dark-mode {
+    color: bisque;
+    background-color: black;
+}
+
+.dark-mode body {
+    transition: 0.2s linear;
+
+}
+
+
+
+.dark-mode footer {
+    background-color: #0d0116;
+    transition: 0.2s linear;
+
+}
+
+
+.dark-mode button{
+    border: none;
+    border-radius: 25%;
+    padding: 1vh;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.dark-mode button:hover{
+    background-color: rgba(255, 228, 196, 0.562);
+}
